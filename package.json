@@ -2,6 +2,7 @@
 	"name": "chinese-to-pascal-pinyin",
 	"displayName": "chinese-to-pascal-pinyin",
 	"description": "中文变成大驼峰拼音(Key)",
+	"publisher": "wangbo",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.101.0"
