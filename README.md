@@ -1,71 +1,39 @@
-# chinese-to-pascal-pinyin README
+# Chinese to Pascal Pinyin Converter for VS Code
 
-This is the README for your extension "chinese-to-pascal-pinyin". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+一个简单实用的 VS Code 扩展，能将选中的中文文本快速转换为大驼峰拼音格式。非常适合需要中文变量命名的开发者。
 
 ---
 
-## Following extension guidelines
+## ✨ 功能特性
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+-   **中文转大驼峰拼音：** 一键将“中文名称”转换为 `ZhongWenMingCheng`。
+-   **多重选择支持：** 同时转换文档中多个选中的中文文本。
+-   **快捷键方便：** 默认快捷键 `Ctrl+R` (Windows/Linux) 或 `Cmd+R` (macOS)，快速调用。
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+---
 
-## Working with Markdown
+## 🚀 安装
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+1.  打开 VS Code。
+2.  进入扩展视图 (`Ctrl+Shift+X` 或者点击侧边栏的方块图标)。
+3.  在搜索框中输入 `Chinese to Pascal Pinyin`。
+4.  点击安装。
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+---
 
-## For more information
+## 💡 如何使用
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+1.  在任何代码或文本文件中，选中你想要转换的中文文本。
+2.  按下默认快捷键：
+    -   Windows/Linux: `Ctrl+R`
+    -   macOS: `Ctrl+R`
+3.  或者，打开命令面板 (`Ctrl+Shift+P`)，输入 `Convert Chinese to Pascal Pinyin` 并选择执行。
+4.  选中的中文文本将被立即替换为大驼峰拼音。
 
-**Enjoy!**
+---
+
+## 🤝 贡献与反馈
+
+如果你在使用过程中遇到任何问题，或有任何功能建议，欢迎 [提交 Issue](https://github.com/b123b123/chinese-to-pascal-pinyin/issues)。
+
+---
